@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Play Rock Paper Scissors!</title>
+</head>
+<body id="new">
+	<div>
+		<h1 id="h1">Rock Paper Scissors</h1>
+		<div>
+			<div id="bor">
+			<button onclick="onClick()" id="button">Play</button>
+		</div>
+		
+			<h1 id="div">
+				Player 1:
+			</h1>
+			<h5 id="demo"></h5>
+			<h1 id="div">
+				Player 2:
+			</h1>
+				<h5 id="dem"></h5>
+		</div>
+	<style type="text/css">
+		#button{
+			width: 250px;
+			height: 100px;
+			opacity: 0.5;
+			border-color: red;
+		}
+		#button:hover{
+			color: red;
+			background-color: blue;
+		}
+		#bor{
+			text-align: center;
+		}
+		#div{
+			padding-top: 70px;
+			color: red;
+			text-align: center;
+			text-decoration: underline;
+		}
+		#h1{
+			color: #7EC0EE;
+			text-align: center;
+			text-shadow: 3px 3px blue;
+			text-decoration: underline;
+			font-size: 50px;
+			font-family: serif;
+		}
+		#demo{
+			font-size: 35px;
+			text-align: center;
+			padding-bottom: 7px;
+		}
+		#dem{
+			font-size: 35px;
+			text-align: center;
+			padding-bottom: 7px;
+		}
+		#new{
+			background-image: url(1.jpg);
+		}
+	</style>
+</div>
+</body>
+<script type="text/javascript">
+        var things = ['Rock 💎', 'Paper 📝', 'Scissor ✂️'];
+        function rand() {
+        	return things[Math.floor(Math.random() * things.length)];
+        }
+        function onClick() {
+        	document.getElementById("demo").innerHTML = rand();
+            document.getElementById("dem").innerHTML = rand();
+        }
+		</script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9583677717540636",
+    enable_page_level_ads: true
+  });
+</script>
+</html>
