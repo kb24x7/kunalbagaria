@@ -1,7 +1,3 @@
-@font-face {
-  font-family: Effra;
-  src: url(#/fonts/Effra_Std_Rg.ttf);
-}
 html{
 	height: 100%;
 }
@@ -10,7 +6,7 @@ body{
 	max-width: 100%;
 	background-color: #0B0C23;
 	width: 100%;
-	font-family: Effra;
+	font-family: 'Raleway', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
