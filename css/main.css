@@ -1,7 +1,8 @@
-html{
+html {
 	height: 100%;
 }
-body{
+
+body {
 	margin: 0 auto;
 	max-width: 100%;
 	background-color: #0B0C23;
@@ -12,55 +13,66 @@ body{
 	justify-content: center;
 	height: 100%;
 }
-.box{
+
+.box {
 	width: 400px;
 	height: 400px;
 	box-shadow: 24px 24px 3px #000000;
 	border: solid 8px #ffffff;
 	align-self: center;
 }
-.heading{
+
+.heading {
 	margin-left: 20px;
 	margin-top: 40px;
 }
-h1{
+
+h1 {
 	font-size: 42px;
 	color: #ffffff;
 }
-p{
+
+p {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 21px;
 	margin-left: 20px;
 }
-.btn-div{
+
+.btn-div {
 	margin-left: 20px;
 	margin-top: 40px;
 }
-.hire{
+
+.hire {
 	cursor: pointer;
 	color: #ffffff;
 	width: 100px;
 	height: 40px;
 	border: 0;
 	border-radius: 47px;
-	background: rgb(207,82,144);
-	background: linear-gradient(135deg, rgba(207,82,144,1) 0%, rgba(247,86,112,1) 100%);
+	background: rgb(207, 82, 144);
+	background: linear-gradient(135deg, rgba(207, 82, 144, 1) 0%, rgba(247, 86, 112, 1) 100%);
 }
-.hire:hover{
+
+.hire:hover {
 	border: solid;
 }
-.hire:active{
+
+.hire:active {
 	background: #ffffff;
 	color: black;
 }
-.contact:hover{
+
+.contact:hover {
 	border: solid;
 }
-.contact:active{
+
+.contact:active {
 	background: #ffffff;
 	color: black;
 }
-.contact{
+
+.contact {
 	margin-left: 8px;
 	cursor: pointer;
 	color: #ffffff;
@@ -68,24 +80,27 @@ p{
 	height: 40px;
 	border: 0;
 	border-radius: 47px;
-	background: rgb(112,144,231);
-	background: linear-gradient(135deg, rgba(112,144,231,1) 0%, rgba(75,191,217,1) 100%);	
+	background: rgb(112, 144, 231);
+	background: linear-gradient(135deg, rgba(112, 144, 231, 1) 0%, rgba(75, 191, 217, 1) 100%);
 }
-.lower{
+
+.lower {
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
 }
-.twitter{
+
+.twitter {
 	width: 50px;
 	height: 50px;
 	margin-left: 0px;
 	margin-top: 40px;
 }
-.music{
+
+.music {
 	color: #ffffff;
 	background: transparent;
-	border:	3px solid white;
+	border: 3px solid white;
 	border-radius: 0px;
 	margin-left: 12px;
 	margin-top: 45px;
@@ -94,7 +109,8 @@ p{
 	height: 40px;
 	cursor: pointer;
 }
-.music:hover{
+
+.music:hover {
 	background: #ffffff;
 	color: #000000;
 	font-style: underline;
