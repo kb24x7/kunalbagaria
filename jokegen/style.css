@@ -10,6 +10,12 @@ body {
     margin: 0 auto;
     display: table;
 }
+button {
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
 .heading {
     font-size: 64px;
     text-align: center;
