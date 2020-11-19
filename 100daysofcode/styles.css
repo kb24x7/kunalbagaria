@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+}
+p{
+    color: white;
+}

@@ -1,0 +1,61 @@
+.box{
+    border: 2px solid white;
+    width: 350px;
+    height: 400px;
+}
+#amount{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+#tips{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+#people{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+#calculate{
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 40px;
+    width: 120px;
+    background: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+#calculate:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#damage{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#perperson{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.back{
+    margin-top: 50px;
+}
