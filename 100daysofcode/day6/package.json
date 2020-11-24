@@ -1,0 +1,16 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "description": "mars",
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "fetch": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KB",
+  "license": "ISC"
+}
