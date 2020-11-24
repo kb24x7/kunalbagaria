@@ -4,7 +4,7 @@
 const api_key = 'ITUWO2UfgTsiaCKmJ45qQbyJEmPIKDsQNy7tXtiV'
 let today = new Date();
 let yesterday = new Date(today);
-yesterday.setDate(today.getDate() - 1);
+yesterday.setDate(today.getDate() - 2);
 let date = yesterday.getFullYear()+'-'+(yesterday.getMonth()+1)+'-'+yesterday.getDate();
 console.log(date)
 const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${date}&api_key=${api_key}`
