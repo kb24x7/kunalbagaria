@@ -1,7 +1,7 @@
 let userInput = document.getElementById('name')
 async function getMovieDetails() {
     // @ts-ignore
-    let jsonMovieDetails = await fetch(`http://www.omdbapi.com/?apikey=2e966bca&t=${userInput.value}`)
+    let jsonMovieDetails = await fetch(`https://www.omdbapi.com/?apikey=2e966bca&t=${userInput.value}`)
     let details = jsonMovieDetails.json()
     return details
 }
