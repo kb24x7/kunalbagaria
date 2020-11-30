@@ -31,7 +31,7 @@ async function getmov() {
             let movieRating = Number(movie.imdbRating)
             let rating = Math.round(movieRating)
             let finalText = spanText.repeat(rating)
-            document.getElementById('imdb').innerHTML = `<b>IMDb:</b> ${finalText} / ${movie.imdbRating}`
+            document.getElementById('imdb').innerHTML = `<b>IMDb:</b> ${finalText} | ${movie.imdbRating} / 10`
         }
     }
 }
