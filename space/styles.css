@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Letter Sketch";
+    src: url('fonts/Lettersketch-ow1wV.ttf');
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: "Letter Sketch";
+    font-size: 5vw;
+    margin-left: 35vw;
+}
+.container {
+    position: relative;
+    text-align: center;  
+}
+body {
+    margin: 0 auto;
+    background-color: rgb(5, 5, 5);
+}
+#background{
+    object-fit: cover;
+    max-width: 100%;
+    z-index: -1;
+}
