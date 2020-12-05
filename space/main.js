@@ -1,2 +1,2 @@
-// document.getElementById('background').style.height = screen.height.toString()
-// document.getElementById('background').style.width = screen.width.toString()
+let aud = document.getElementById('bg-audio')
+aud.play()
