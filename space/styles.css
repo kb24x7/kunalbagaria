@@ -23,3 +23,16 @@ body {
     max-width: 100%;
     z-index: -1;
 }
+#bg-audio {
+    position: absolute;
+    margin: 0 auto;
+    z-index: +1;
+}
+#aud-icon{
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    z-index: +1;
+    max-width: 2vw;
+    cursor: pointer;
+}

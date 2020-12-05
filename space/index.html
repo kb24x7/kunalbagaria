@@ -6,12 +6,13 @@
 </head>
 
 <body>
-    <audio id="bg-audio" loop>
+    <img src="aud.svg" id="aud-icon" onclick="play()">
+    <audio id="bg-audio" loop autoplay>
         <source src="bg.mp3" type="audio/mpeg">
     </audio>
     <div class="container">
         <h1>Space News</h1>
-        <img src="bg.jpg" id="background">
+        <img src="bg.jpg" id="background" onclick="play()">
     </div>
     <script src="main.js"></script>
 </body>

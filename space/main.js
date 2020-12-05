@@ -1,2 +1,5 @@
 let aud = document.getElementById('bg-audio')
-aud.play()
+function play() {
+    // @ts-ignore
+    aud.play()
+}
