@@ -41,6 +41,7 @@ h1 {
     height: 20vw;
     border: none;
     outline: none;
+    object-fit: cover;
 }
 #newsLink{
     border-radius: 2vw;
