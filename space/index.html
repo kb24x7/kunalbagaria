@@ -6,12 +6,19 @@
 </head>
 
 <body>
-    <audio id="bg-audio" loop>
+    <iframe src="back.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+    <audio id="bg-audio" loop autoplay>
         <source src="back.mp3" type="audio/mpeg">
     </audio>
     <div class="container">
         <h1>Space News</h1>
-        <img src="bg.jpg" id="background" onclick="play()">
+        <div id="main">
+            <div class="news">
+                <img src="">
+                <p id="title"></p>
+                <p id="description"></p>
+            </div>
+        </div>
     </div>
     <script src="main.js?1"></script>
 </body>

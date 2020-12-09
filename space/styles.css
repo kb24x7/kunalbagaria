@@ -10,29 +10,24 @@ h1 {
     font-size: 5vw;
     margin-left: 34vw;
 }
-.container {
-    position: relative;
-    text-align: center;  
-}
 body {
     margin: 0 auto;
-    background-color: rgb(5, 5, 5);
+    background-image: url('bg.jpg');
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-#background{
-    object-fit: cover;
-    max-width: 100%;
-    z-index: -1;
+#main {
+    display: flex;
+    align-items: center;
 }
-#bg-audio {
-    position: absolute;
-    margin: 0 auto;
-    z-index: +1;
-}
-#aud-icon{
-    position: absolute;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    z-index: +1;
-    max-width: 2vw;
-    cursor: pointer;
+.news {
+    background-color: white;
+    width: 40vw;
+    height: 30vw;
+    align-self: center;
+    border-radius: 2vw;
+    opacity: 30%;
+    margin-left: 30vw;
+    margin-top: 12vw;
 }
