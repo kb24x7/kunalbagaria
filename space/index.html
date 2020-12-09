@@ -1,24 +1,28 @@
 <html>
 <head>
     <title>Space News</title>
-    <link rel="stylesheet" href="styles.css?1">
+    <link rel="stylesheet" href="styles.css?9">
 
 </head>
 
-<body onclick="play()">
+<body>
     <audio id="bg-audio" loop>
-        <source src="back.mp3" type="audio/mpeg">
+        <source src="back.mp3?9" type="audio/mpeg">
     </audio>
     <div class="container">
         <h1>Space News</h1>
+        <button onclick="play()" class="audbtn" id="play">Play Music</button>
+        <button onclick="pause()" class="audbtn" id="pause">Stop Music</button>
+        <button onclick="prev()" class="buttons" id="prev">Prev</button>
+        <button onclick="next()" class="buttons" id="next">Next</button>
         <div id="main">
             <div class="news">
-                <img src="">
+                <a id="newsLink" href="" target="_blank"><img id="imageUrl" src=""></a>
                 <p id="title"></p>
-                <p id="description"></p>
+                <p id="summary"></p>
             </div>
         </div>
     </div>
-    <script src="main.js?1"></script>
+    <script src="main.js?9"></script>
 </body>
 </html>

@@ -2,6 +2,14 @@
     font-family: "Letter Sketch";
     src: url('fonts/Lettersketch-ow1wV.ttf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    margin: 0 auto;
+    background-image: url('bg1.jpg');
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 h1 {
     position: absolute;
     text-align: center;
@@ -10,24 +18,74 @@ h1 {
     font-size: 5vw;
     margin-left: 34vw;
 }
-body {
-    margin: 0 auto;
-    background-image: url('bg.jpg');
-    background-color: black;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 #main {
     display: flex;
     align-items: center;
 }
 .news {
-    background-color: white;
+    background-color: black;
     width: 40vw;
     height: 30vw;
     align-self: center;
     border-radius: 2vw;
-    opacity: 30%;
+    /* opacity: 20%; */
     margin-left: 30vw;
     margin-top: 12vw;
+    font-family: Gilroy;
+    color: white
+}
+#imageUrl{
+    margin: 0 auto;
+    border-radius: 2vw 2vw 0vw 0vw;
+    width: 40vw;
+    height: 20vw;
+    border: none;
+    outline: none;
+}
+#newsLink{
+    border-radius: 2vw;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 1vw;
+    font-size: 1vw;
+    width: 38vw;
+}
+.buttons {
+    outline: none;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border: solid 0.1vw white;
+    color: white;
+}
+.buttons:hover {
+    background-color: white;
+    color: black;
+}
+#next{
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 25vw;
+}
+#prev{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 25vw;
+}
+.audbtn{
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1vw white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+#play {
+    margin: 1vw;
+}
+#pause {
+    margin: 1vw;
+    margin-left: 6vw;
 }
