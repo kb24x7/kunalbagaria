@@ -55,7 +55,7 @@ function addNews() {
     // @ts-ignore
     newsLink.href = dataNews[newsNumber].url
     title.innerHTML = dataNews[newsNumber].title
-    summary.innerHTML = dataNews[newsNumber].summary
+    summary.innerHTML = dataNews[newsNumber].summary.slice(-0, 350) + '...'
     // @ts-ignore
     imageUrl.src = dataNews[newsNumber].imageUrl
 }
