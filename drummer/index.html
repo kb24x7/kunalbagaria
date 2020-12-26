@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Drummer - Play your beat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/gif">
+</head>
+
+<body>
+    <h1>Drummer</h1>
+    <p>Play your beat!</p>
+    <div class="container">
+        <img src="favicon.png" style="max-width: 100px;">
+    </div>
+    <div class="container" id="container">
+        <div class="sounds" onclick="kick()" id="kick">
+            <p class="sounds-text">Kick<br>Q</p>
+            <audio preload="auto" id="kick-sound" src="sounds/kick.wav"></audio>
+        </div>
+        <div class="sounds" onclick="snare()" id="snare">
+            <p class="sounds-text">Snare<br>W</p>
+            <audio preload="auto" id="snare-sound" src="sounds/snare.wav"></audio>
+        </div>
+        <div class="sounds" onclick="clap()" id="clap">
+            <p class="sounds-text">Clap<br>E</p>
+            <audio preload="auto" id="clap-sound" src="sounds/clap.wav"></audio>
+        </div>
+        <div class="sounds" onclick="hihat()" id="hihat">
+            <p class="sounds-text">Hi-Hat<br>R</p>
+            <audio preload="auto" id="hihat-sound" src="sounds/hihat.wav"></audio>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sounds" id="808" onclick="eight()">
+            <p class="sounds-text">FX<br>A</p>
+            <audio preload="auto" id="eight-sound" src="sounds/fx.wav"></audio>
+        </div>
+        <div class="sounds" id="perc1">
+            <p class="sounds-text">Perc 1<br>S</p>
+            <audio preload="auto" id="perc1-sound" src="sounds/perc1.wav"></audio>
+        </div>
+        <div class="sounds" id="perc2">
+            <p class="sounds-text">Perc 2<br>D</p>
+            <audio preload="auto" id="perc2-sound" src="sounds/perc2.wav"></audio>
+        </div>
+        <div class="sounds" id="hihat2">
+            <p class="sounds-text">Hi-Hat 2<br>F</p>
+            <audio preload="auto" id="hihat2-sound" src="sounds/hihat2.wav"></audio>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
